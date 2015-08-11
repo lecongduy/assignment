@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	margin:0 auto;
+	width:980px;
+	background-color:#fff;
+}
+@font-face {
+    font-family: 'myFont';
+	src:url(font/tahoma.ttf);
+}
+
+p.addFont {
+    font-family: 'myFont';
+}
+body {
+	font-size:13px;
+	font-family:'myFont';
+	background-size:cover;
+	background-image:url(../images/nen.png);
+}
+#header {
+	width:980px;
+}
+.box {
+	width:600px;
+	height:400px;
+	border:1px solid #00F;
+	margin:auto;
+	margin-top: 30px;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+
+

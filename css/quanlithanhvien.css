@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper {
+	margin:0 auto;
+	width:980px;
+	background-color:#fff;
+}
+@font-face {
+    font-family: 'myFont';
+	src:url(font/tahoma.ttf);
+}
+
+p.addFont {
+    font-family: 'myFont';
+}
+body {
+	font-size:13px;
+	font-family:'myFont';
+	background-image:url(../images/nen.png);
+	background-size:cover;
+}
+#header {
+	width:980px;
+	height:132px;
+}
+#menu_tab {
+	background-color:#04648e;
+	height:40px;
+	width:980px;
+}
+#menu_tab ul {
+	float:left;
+	width: 980px;
+	margin: 0;
+	padding: 5px 0 0 0;
+	list-style:none;
+}
+#menu_tab ul li {
+	display: inline;
+}
+#menu_tab ul li a {
+	float: left;
+	width: 130px;
+	padding: 5px 0;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	border-right: 1px solid #666;
+}
+#menu_tab a:hover {
+	color:#57abdb;
+}
+
+.content {
+	width:978px;
+	margin-top:0px;
+	border:1px solid #0594d2;
+}
+.chitiethang {
+	width:800px;
+	margin:auto;
+}
+td {
+	height:40px;
+	color:#066;
+	color:#0594d2;
+	text-align:center;
+}
+table {
+	color:#063;
+}
+p {
+	color:#0594d2;
+	font-weight: bold;
+	text-align:center;
+}
+h2 {
+	color:red;
+
+}
+a {text-decoration:blink;}
+
+
